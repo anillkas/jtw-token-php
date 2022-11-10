@@ -1,0 +1,22 @@
+{
+    "name": "jwt-token/anillkas",
+    "description": "Generating jwt token using only private key",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JwtToken\\Anillkas\\": "src/"
+        },
+        "files": [
+            "src/JWT.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anil Kas",
+            "email": "anil.kas98@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
